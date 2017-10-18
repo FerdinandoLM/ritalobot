@@ -1,16 +1,16 @@
-# ritalobot ![Alt text](https://travis-ci.org/blackdev1l/ritalobot.svg?branch=master)
+# RitaloBot ![Alt text](https://travis-ci.org/blackdev1l/ritalobot.svg?branch=master)
 
-telegram bot written in golang which uses Markov Chain stored in redis
+Telegram bot written in Golang which uses Markov Chain stored in Redis
 
 Installation
 ------------
-you need *golang* >= *1.3* and *redis* installed on your machine.  
+You need *golang* >= *1.3* and *redis* installed on your machine.  
 `go get github.com/blackdev1l/ritalobot`
 
 Usage
 ------------
 
-#### flags
+#### Flags
 ```
 flag | default | help
 -c="./config.yml": path for ritalobot config
@@ -19,18 +19,18 @@ flag | default | help
 -token="": authentication token for the telegram bot
 ```
 
-#### config file
-create a `config.yml` or rename `example.yml` editing the variables.
-make sure to have redis-server started.
+#### Config file
+Create a `config.yml` or rename `example.yml` editing the variables.  
+Make sure to have redis-server started.
 
 TODO
 ------------
 
 - [x] Flags
-- [x] yaml config
-- [ ] increase / decrease chance from command
-- [ ] better Markov chain
-- [ ] command to start or stop bot
+- [x] Yaml config
+- [ ] Increase / decrease chance from command
+- [ ] Better Markov chain
+- [ ] Command to start or stop bot
 
 
-![works on my machine](http://www.edsquared.com/content/binary/Windows-Live-Writer/dbb6c39a79dc_68DE/WorksOnMyMachine_3.png)
+![Works on my machine](http://www.edsquared.com/content/binary/Windows-Live-Writer/dbb6c39a79dc_68DE/WorksOnMyMachine_3.png)
